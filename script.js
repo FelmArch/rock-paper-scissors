@@ -20,8 +20,3 @@ function getComputerChoice() {
     }
 }
 
-// vamos testar, e podemos ver que deu resultados aleatorios, e isso e otimo
-console.log(getComputerChoice())
-console.log(getComputerChoice())
-console.log(getComputerChoice())
-console.log(getComputerChoice())
