@@ -60,4 +60,12 @@ function playGame() {
 
     console.log('Fim de Jogo');
     console.log('Pontuacao final Jogador: ' + humanScore + ' | computador: ' + computerScore );
+
+    if (humanScore > computerScore) {
+        console.log('🏆 Parabéns! Voce Venceuuuu...!');
+    } else if (humanScore < computerScore) {
+        console.log('Opa... Voce Perdeu!, nao foi desta vez. Tenta novamente!');
+    } else {
+        console.log('🤝Grande jogo, mas tivemos um Empate técnico');
+    }
 }
