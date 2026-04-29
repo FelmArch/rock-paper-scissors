@@ -22,7 +22,5 @@ function getComputerChoice() {
 
 function getHumanChoice() {
    const escolha = prompt("Escolhe: rock, paper ou scissors");
-   return escolha;
+   return escolha.toLowerCase();
 }
-
-console.log(getHumanChoice())
