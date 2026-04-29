@@ -36,3 +36,9 @@ function playRound(humanChoice, computerChoice) {
         console.log('Perdeste! ' + computerChoice + ' vence ' + humanChoice);
     }
 }
+
+function playGame() {
+    const humanSelection1 = getHumanChoice();
+    const computerSelection1 = getComputerChoice();
+    playRound(humanSelection1, computerSelection1);
+}
