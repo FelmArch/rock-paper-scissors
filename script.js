@@ -58,7 +58,7 @@ function playGame() {
     computerSelection = getComputerChoice()
     playRound(humanSelection, computerSelection)
 
-    console.log('Fim de Jogo');
+    console.log('Fim de Jogo.');
     console.log('Pontuacao final Jogador: ' + humanScore + ' | computador: ' + computerScore );
 
     if (humanScore > computerScore) {
@@ -69,3 +69,5 @@ function playGame() {
         console.log('🤝Grande jogo, mas tivemos um Empate técnico');
     }
 }
+
+playGame();
