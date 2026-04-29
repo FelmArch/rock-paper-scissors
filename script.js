@@ -38,7 +38,26 @@ function playRound(humanChoice, computerChoice) {
 }
 
 function playGame() {
-    const humanSelection1 = getHumanChoice();
-    const computerSelection1 = getComputerChoice();
-    playRound(humanSelection1, computerSelection1);
+    let humanSelection = getHumanChoice();
+    let computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection);
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice()
+    playRound(humanSelection, computerSelection)
+    
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice()
+    playRound(humanSelection, computerSelection)
+    
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice()
+    playRound(humanSelection, computerSelection)
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice()
+    playRound(humanSelection, computerSelection)
+
+    console.log('Fim de Jogo');
+    console.log('Pontuacao final Jogador: ' + humanScore + ' | computador: ' + computerScore );
 }
