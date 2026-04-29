@@ -4,6 +4,7 @@ let humanScore = 0;
 let computerScore = 0;
 const playerName = prompt('Qual o seu Username?')
 
+
 function getComputerChoice() {
     const number = Math.floor(Math.random() * 3)
 
