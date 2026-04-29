@@ -30,13 +30,9 @@ function playRound(humanChoice, computerChoice) {
         (humanChoice === 'scissors' && computerChoice === 'paper')
     ) {
         humanScore++;
-        console.log('Ganhaste! ' + humanChoice + 'vence' + computerChoice);
+        console.log('Ganhaste! ' + humanChoice + ' vence ' + computerChoice);
     } else {
         computerScore++;
-        console.log('Perdeste! ' + computerChoice + 'vence' + humanChoice);
+        console.log('Perdeste! ' + computerChoice + ' vence ' + humanChoice);
     }
 }
-
-const humanSelection = getHumanChoice()
-const computerSelection = getComputerChoice()
-playRound(humanSelection, computerSelection)
