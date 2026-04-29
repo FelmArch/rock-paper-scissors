@@ -1,6 +1,6 @@
 # Pedra, Papel e Tesoura
 
-Projecto de conclusão do módulo de Funções JavaScript do The Odin Project.
+Primeiro projecto JavaScript do The Odin Project Foundations.
 Jogo jogado inteiramente no console do browser.
 
 ## Como jogar
