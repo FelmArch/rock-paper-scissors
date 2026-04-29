@@ -60,10 +60,10 @@ function playGame() {
     playRound(humanSelection, computerSelection)
 
     console.log('Fim de Jogo.');
-    console.log('Pontuacao final Jogador: ' + humanScore + ' | computador: ' + computerScore );
+    console.log('Pontuacao final ' + playerName + ': ' + humanScore + ' | computador: ' + computerScore);
 
     if (humanScore > computerScore) {
-        console.log('🏆 Parabéns! Voce Venceuuuu...!');
+        console.log('🏆 Parabéns ' + playerName + '! Voce Venceuuu...!')
     } else if (humanScore < computerScore) {
         console.log('Opa... Voce Perdeu!, nao foi desta vez. Tenta novamente!');
     } else {
