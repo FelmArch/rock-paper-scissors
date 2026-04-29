@@ -1,12 +1,7 @@
 
 
-
-// testando
-
-console.log("Hello FelmArch")
-
-
-// vamos ao projeto
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice() {
     const number = Math.floor(Math.random() * 3)
